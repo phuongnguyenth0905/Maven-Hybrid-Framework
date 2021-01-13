@@ -6,8 +6,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-import pageUI.nopCommerce.UserLoginPageUI;
-
 public class LoginPageObject extends AbstractPage {
 	WebDriver driver;
 
@@ -16,23 +14,23 @@ public class LoginPageObject extends AbstractPage {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-	
-	//I-định nghĩa elements
-	//cach1 1:
+
+	// I-định nghĩa elements
+	// cach1 1:
 	@FindBy(xpath = "//input[@id='Email']")
 	WebElement emailTextbox;
-	
-	//cách 2:
-	@FindBy(how = How.XPATH,using = "//input[@id='Email']")
+
+	// cách 2:
+	@FindBy(how = How.XPATH, using = "//input[@id='Email']")
 	WebElement email_Textbox;
-	
+
 	@FindBy(xpath = "//input[@id='Password']")
 	WebElement passwordTextbox;
-	
+
 	@FindBy(xpath = "//input[@value='Log in']")
 	WebElement loginbutton;
-	
-	//II- Actions
+
+	// II- Actions
 	public void inputToEmailTextbox(String email) {
 
 		waitToElementVisible(driver, emailTextbox);
