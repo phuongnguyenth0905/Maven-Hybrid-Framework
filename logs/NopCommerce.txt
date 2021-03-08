@@ -1,8 +1,41 @@
-[INFO ] [2021-01-26 14:01:06,791] TC_01_Sort_Product_Name: Name (A to Z)
-[INFO ] [2021-01-26 14:01:12,077]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-01-26 14:01:12,078] TC_01_Sort_Product_Name: Name (Z to A)
-[INFO ] [2021-01-26 14:01:17,301]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-01-26 14:01:17,356] TC_02_Sort_Product_Price: Price (low to high)
-[INFO ] [2021-01-26 14:01:22,637]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-01-26 14:01:22,637] TC_02_Sort_Product_Price: Price (high to low)
-[INFO ] [2021-01-26 14:01:27,870]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-05 17:10:18,785] Register - Step 01 : Open Home Page
+[INFO ] [2021-03-05 17:10:18,799] Login - Step 01 : Click To My Account Link
+[INFO ] [2021-03-05 17:10:19,987] Login - Step 02 : Input To Email textbox with value: namhoang2074@gmail.com
+[INFO ] [2021-03-05 17:10:20,784] Login - Step 03 : Input To Password textbox with value: 123456
+[INFO ] [2021-03-05 17:10:21,472] Login - Step 04 : Click To Login Button
+[INFO ] [2021-03-05 17:10:23,276] Login - Step 05 : Verify Login Link
+[INFO ] [2021-03-05 17:10:23,442]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-05 17:10:23,593] Account_Infor - Step 01: Open My Account Information Page
+[INFO ] [2021-03-05 17:10:24,364] Account_Infor - Step 02: Vefify Firstname value is correct
+[INFO ] [2021-03-05 17:10:24,424]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-05 17:10:24,424] Account_Infor - Step 03: Vefify Lastname value is correct
+[INFO ] [2021-03-05 17:10:24,522]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-05 17:10:24,522] Account_Infor - Step 04: Vefify Email value is correct
+[INFO ] [2021-03-05 17:10:24,582]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-05 17:10:24,588] TC_04_Product_Price - Step 01: Open Mobile Page
+[INFO ] [2021-03-05 17:10:26,637] TC_04_Product_Price - Step 02: Store Product Price at list page
+[INFO ] [2021-03-05 17:10:26,728] TC_04_Product_Price - Step 03: Click to Sony Xperia product name
+[INFO ] [2021-03-05 17:10:29,062] TC_04_Product_Price - Step 04: Verify Product in detail equal Product Price at list page
+[INFO ] [2021-03-05 17:10:29,205]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-05 17:10:29,210] TC_07_Compare_Product - Step 01: Open Mobile Page
+[INFO ] [2021-03-05 17:10:29,966] TC_07_Compare_Product - Step 02: Click 'Add to Compare' link Sony Xperia
+[INFO ] [2021-03-05 17:10:31,092] TC_07_Compare_Product - Step 03: Verify displayed 'The product Sony Xperia has been added to comparison list.'
+[INFO ] [2021-03-05 17:10:31,175]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-05 17:10:31,175] TC_07_Compare_Product - Step 04: Click 'Add to Compare' link IPhone
+[INFO ] [2021-03-05 17:10:32,325] TC_07_Compare_Product - Step 05: Verify displayed 'The product IPhone has been added to comparison list.'
+[INFO ] [2021-03-05 17:10:32,387]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-05 17:10:32,387] TC_07_Compare_Product - Step 06: Click on 'Compare' button
+[INFO ] [2021-03-05 17:10:34,182] TC_07_Compare_Product - Step 07: Verify Sony Xperia product are reflected in it heading 'COMPARE PRODUCTS'
+[INFO ] [2021-03-05 17:10:34,270]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-05 17:10:34,270] TC_07_Compare_Product - Step 08: Verify IPhone product are reflected in it heading 'COMPARE PRODUCTS' 
+[INFO ] [2021-03-05 17:10:34,346]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-05 17:10:34,347] TC_07_Compare_Product - Step 09: Close the Popup Windowns
+[INFO ] [2021-03-05 17:10:34,512] TC_08_Share_Wishlist - Step 01: Go to TV menu page
+[INFO ] [2021-03-05 17:10:35,341] TC_08_Share_Wishlist - Step 02: Add 'LG LCD' product in wishlist
+[INFO ] [2021-03-05 17:10:35,341] TC_08_Share_Wishlist - Step 03: Click button 'Share Wishlist'
+[INFO ] [2021-03-05 17:10:35,341] TC_08_Share_Wishlist - Step 04: Verify Message 'LG LCD has been added to your wishlist. Click here to continue shopping.'displayed
+[INFO ] [2021-03-05 17:10:35,341] TC_08_Share_Wishlist - Step 05: enter email and a message
+[INFO ] [2021-03-05 17:10:35,341] TC_08_Share_Wishlist - Step 06: Verify massege 'Your Wishlist has been shared.' displayed
+[INFO ] [2021-03-05 17:10:35,341] TC_08_Share_Wishlist - Step 07: click 'Share Wishlist' button
+[INFO ] [2021-03-05 17:10:35,342] TC_08_Share_Wishlist - Step 08: verify page 'My Wishlist' have 1 item 'LG LCD'
+[INFO ] [2021-03-05 17:10:35,350] TC_10_Order_Product - Step 01: Select value in Country dropdown

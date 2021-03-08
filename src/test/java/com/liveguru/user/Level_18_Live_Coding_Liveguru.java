@@ -229,10 +229,10 @@ public class Level_18_Live_Coding_Liveguru extends AbstractTest {
 
         log.info("TC_07_Compare_Product - Step 05: Verify displayed 'The product " + productNameIphone + " has been added to comparison list.'");
         verifyEquals(mobilePage.getSuccessMessage(driver), "The product " + productNameIphone + " has been added to comparison list.");
-        System.out.println(driver.getWindowHandle());
+        
         log.info("TC_07_Compare_Product - Step 06: Click on 'Compare' button");
         CompareProductPage = mobilePage.clickCompareButton();
-        System.out.println(driver.getWindowHandle());
+        
 
         log.info("TC_07_Compare_Product - Step 07: Verify " + productNameSonyXperia + " product are reflected in it heading 'COMPARE PRODUCTS'");
         verifyTrue(CompareProductPage.isCompareProductWithProductInIt(productImageSonyXperia, productNameSonyXperia, productPriceSonyXperia, productSKUSonyXperia));
@@ -274,7 +274,7 @@ public class Level_18_Live_Coding_Liveguru extends AbstractTest {
 
     }
 
-    // @Test
+    @Test
     public void TC_10_Order_Product() {
         log.info("TC_10_Order_Product - Step 01: Select value in Country dropdown");
         checkoutPage.selectValueInCountryDropdownAtShoppingCart(country);

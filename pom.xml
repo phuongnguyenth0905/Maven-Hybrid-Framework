@@ -168,7 +168,7 @@
 						<file>src/test/resources/runLevel_16_Register_Login_Close_Browser.xml</file>
 						<file>src/test/resources/runLevel_17_Register_Login_Pattern_Object.xml</file>
 						<file>src/test/resources/runLevel_18_Live_Coding_Liveguru.xml</file> -->
-						<file>src/test/resources/runLevel_20_Sort_ASC_DESC.xml</file>
+						<file>src/test/resources/runLevel_18_Live_Coding_Liveguru.xml</file>
 					</suiteXmlFiles>
 
 					<!-- Argument -->
