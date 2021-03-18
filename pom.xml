@@ -125,6 +125,13 @@
 			<artifactId>allure-testng</artifactId>
 			<version>2.13.5</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.aeonbits.owner</groupId>
+			<artifactId>owner</artifactId>
+			<version>1.0.12</version>
+		</dependency>
+
 	</dependencies>
 
 	<!-- Compiler/ Run Test -->
@@ -150,24 +157,13 @@
 				<configuration>
 					<!-- Run TestNG xml file -->
 					<suiteXmlFiles>
-					<!--	<file>src/test/resources/runAllSuitestcase.xml</file>
-						<file>src/test/resources/runnopCommerceMultipleBrowser.xml</file>
-						<file>src/test/resources/runnopCommerceTescases.xml</file>
-						<file>src/test/resources/runLevel_05_Register_Login_Page.xml</file>
-						<file>src/test/resources/runLevel_06_Register_Login_Page_Generator.xml</file>
-						<file>src/test/resources/runLevel_07_Register_Login_Switch_Page.xml</file>
-						<file>src/test/resources/runLevel_08_Register_Login_Rest_Parameter.xml</file>
-						<file>src/test/resources/runLevel_09_AdminTestcasee.xml</file>
-						<file>src/test/resources/runLevel_09_UserTestcases.xml</file>
-						<file>src/test/resources/runLevel_10_UploadFile.xml</file>
-						<file>src/test/resources/runLevel_11_Register_Login_Element_Undisplayed.xml</file>
-						<file>src/test/resources/runLevel_12_Register_Login_Assert_Verify.xml</file>
-						<file>src/test/resources/runLevel_13_Register_Login_Log_Report_HTML.xml</file>
-						<file>src/test/resources/runLevel_14_Register_Login_Allure_Report.xml</file>
-						<file>src/test/resources/runLevel_15_Register_Login_Share_State.xml</file>
-						<file>src/test/resources/runLevel_16_Register_Login_Close_Browser.xml</file>
-						<file>src/test/resources/runLevel_17_Register_Login_Pattern_Object.xml</file>
-						<file>src/test/resources/runLevel_18_Live_Coding_Liveguru.xml</file> -->
+						<!-- <file>src/test/resources/runAllSuitestcase.xml</file> <file>src/test/resources/runnopCommerceMultipleBrowser.xml</file> <file>src/test/resources/runnopCommerceTescases.xml</file> 
+							<file>src/test/resources/runLevel_05_Register_Login_Page.xml</file> <file>src/test/resources/runLevel_06_Register_Login_Page_Generator.xml</file> <file>src/test/resources/runLevel_07_Register_Login_Switch_Page.xml</file> 
+							<file>src/test/resources/runLevel_08_Register_Login_Rest_Parameter.xml</file> <file>src/test/resources/runLevel_09_AdminTestcasee.xml</file> <file>src/test/resources/runLevel_09_UserTestcases.xml</file> 
+							<file>src/test/resources/runLevel_10_UploadFile.xml</file> <file>src/test/resources/runLevel_11_Register_Login_Element_Undisplayed.xml</file> <file>src/test/resources/runLevel_12_Register_Login_Assert_Verify.xml</file> 
+							<file>src/test/resources/runLevel_13_Register_Login_Log_Report_HTML.xml</file> <file>src/test/resources/runLevel_14_Register_Login_Allure_Report.xml</file> 
+							<file>src/test/resources/runLevel_15_Register_Login_Share_State.xml</file> <file>src/test/resources/runLevel_16_Register_Login_Close_Browser.xml</file> 
+							<file>src/test/resources/runLevel_17_Register_Login_Pattern_Object.xml</file> <file>src/test/resources/runLevel_18_Live_Coding_Liveguru.xml</file> -->
 						<file>src/test/resources/runLevel_18_Live_Coding_Liveguru.xml</file>
 					</suiteXmlFiles>
 

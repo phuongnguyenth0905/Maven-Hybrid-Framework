@@ -19,6 +19,7 @@ com\nopcommerce\common\Common_02_Cookie.class
 com\nopcommerce\users\Level_02_Register_Login_Abstract_Page_01.class
 com\nopcommerce\users\Level_02_Register_Login_Abstract_Page_2extends.class
 com\nopcommerce\users\Level_05_Register_Login_Page_Factory.class
+com\liveguru\user\Level_21_Upgrade_Environment.class
 com\nopcommerce\users\Level_06_Register_Login_Page_Generator_Manager.class
 com\nopcommerce\admin\Level_10_Upload_File.class
 com\nopcommerce\common\Common_01_Register.class

@@ -57,6 +57,7 @@ F:\Learn_AutoTest_Class17\04-Maven Hybrid Framework\src\main\java\pageFactory\li
 F:\Learn_AutoTest_Class17\04-Maven Hybrid Framework\src\main\java\pageFactory\nopCommerce\AbstractPage.java
 F:\Learn_AutoTest_Class17\04-Maven Hybrid Framework\src\main\java\pageObjects\liveGuru\ManageCustomerPO.java
 F:\Learn_AutoTest_Class17\04-Maven Hybrid Framework\src\main\java\pageUI\liveGuru\UserHomePageUI.java
+F:\Learn_AutoTest_Class17\04-Maven Hybrid Framework\src\main\java\commons\Environment.java
 F:\Learn_AutoTest_Class17\04-Maven Hybrid Framework\src\main\java\pageFactory\liveGuru\HomePageObject.java
 F:\Learn_AutoTest_Class17\04-Maven Hybrid Framework\src\main\java\pageObjects\nopCommerce\AdminLoginPO.java
 F:\Learn_AutoTest_Class17\04-Maven Hybrid Framework\src\main\java\reportConfig\AllureTestListener.java

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Live Guru]">
+  <listeners>
+    <listener class-name="commons.MethodListener"/>
+    <listener class-name="reportConfig.AllureTestListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Run on chrome_ui(failed)">
+    <parameter name="browser" value="chrome_ui"/>
+    <classes>
+      <class name="com.liveguru.user.Level_21_Upgrade_Environment">
+        <methods>
+          <include name="TC_02_Login_To_System"/>
+          <include name="TC_03_Account_Information"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.liveguru.user.Level_21_Upgrade_Environment -->
+    </classes>
+  </test> <!-- Run on chrome_ui(failed) -->
+</suite> <!-- Failed suite [Live Guru] -->

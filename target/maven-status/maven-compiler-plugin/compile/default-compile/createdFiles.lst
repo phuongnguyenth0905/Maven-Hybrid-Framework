@@ -33,6 +33,7 @@ pageUI\liveGuru\ManageCustomerPageUI.class
 pageUI\liveGuru\UserOrdersPageUI.class
 pageUI\nopCommerce\AdminProductPageUI.class
 pageObjects\sauLab\productPO.class
+commons\Environment.class
 pageObjects\liveGuru\AdminProductPO.class
 pageUI\liveGuru\AdminLoginPageUI.class
 pageFactory\liveGuru\CustomerInforPageObject.class
